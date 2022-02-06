@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: medium;
+    font-weight: normal;
+    font-family:'Roboto', sans-serif;
+    background-color: white;
+margin:0px;
+}
+
+.info-text{
+    font-size: large;
+  font-weight: bolt;
+  word-spacing: 8px;
+text-align: center;
+background-color: #023a45;
+color: white;
+margin-top: 0px;
+margin-bottom: 3px;
+width: 100%;
+}
+
+.info-text h1{
+    margin-top: 0;
+}
+.oll{
+    display: flex;
+justify-content: space-between;
+color:#65a4ac;
+margin-bottom: 2px;
+width: 100%;
+}
+
+.text{
+    font-family: inherit;
+    color: #65a4ac;
+    width: 100%;
+}
+
+.text input{
+    margin-left: 20px;
+    width: 1700px;
+    height: 53px;
+    border-bottom:#65a4ac;
+    color: #65a4ac;
+    font-family: inherit;
+}
+.blok{
+    margin-right: 30px;
+}
+
+.blok button{
+    text-align: center;
+    color: white;
+    background-color: #65a4ac;
+    width: 60px;
+     height: 60px; 
+ cursor: pointer;   
+}
+
+.z1{
+    font-size: larger;
+    background-color:  #02575a;
+    color: white;
+    padding-top:3px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.z2{
+    background-color:  #02575a;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.z2:h3{
+    font-size: larger;
+}
+
+.z2 p{
+    font-style: italic;
+    font-size: medium;
+
+}
+
+.z3 {
+    font-size: larger;
+    background-color:  #02575a;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
