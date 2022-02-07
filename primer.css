@@ -17,7 +17,6 @@ background-color: #023a45;
 color: white;
 margin-top: 0px;
 margin-bottom: 3px;
-width: 100%;
 }
 
 .info-text h1{
@@ -27,35 +26,39 @@ width: 100%;
     display: flex;
 justify-content: space-between;
 color:#65a4ac;
-margin-bottom: 2px;
-width: 100%;
+margin: 0 10px 20px 10px;
 }
 
 .text{
-    font-family: inherit;
     color: #65a4ac;
-    width: 100%;
+width: 80%;
 }
 
 .text input{
     margin-left: 20px;
-    width: 1700px;
+    width: 100%;
     height: 53px;
     border-bottom:#65a4ac;
     color: #65a4ac;
     font-family: inherit;
 }
 .blok{
-    margin-right: 30px;
+    margin-right: 50px;
+    width: 5%;
 }
 
 .blok button{
     text-align: center;
     color: white;
     background-color: #65a4ac;
-    width: 60px;
+    width: 100%;
      height: 60px; 
  cursor: pointer;   
+ font-size: 170%;
+}
+
+.blok button:hover{
+    background-color: #023a45;
 }
 
 .z1{
@@ -68,29 +71,10 @@ width: 100%;
     width: 100%;
 }
 
-.z2{
+.taxt{
     background-color:  #02575a;
     color: white;
     width: 100%;
-    margin: 0;
-}
-
-.z2:h3{
-    font-size: larger;
-}
-
-.z2 p{
-    font-style: italic;
-    font-size: medium;
-
-}
-
-.z3 {
-    font-size: larger;
-    background-color:  #02575a;
-    color: white;
-    width: 100%;
-    margin: 0;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    margin-bottom: 20px;
+    padding: 3px;
 }
